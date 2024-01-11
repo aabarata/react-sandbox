@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Todo } from "../../@types/todo";
+import { Todo } from "../../@types/todo.d";
 import { FixedSizeList as VirtualizedList } from "react-window";
 import InfiniteLoader from "react-window-infinite-loader";
 import styles from "./list.module.scss";
